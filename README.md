@@ -25,7 +25,7 @@ int main()
         vec2i16_t vec_a = {10, 20};
         vec2i16_t vec_b = {20, 25};
         // Values that are smaller than 64 bits must be passed as value.
-        vec2i16_t vec_ab = vec2f32_add(vec_a, vec_b);
+        vec2i16_t vec_ab = vec2i16_add(vec_a, vec_b);
     }
 
     return 0;
