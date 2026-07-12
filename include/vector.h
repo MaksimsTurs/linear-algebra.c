@@ -7,6 +7,7 @@
 
 #include "type.h"
 
+#define INLINE __attribute__((always_inline))
 // Structures declaration macros.
 #define DECLARE_VEC2_STRUCT(type, name) typedef struct { type x, y;    } name
 #define DECLARE_VEC3_STRUCT(type, name) typedef struct { type x, y, z; } name
